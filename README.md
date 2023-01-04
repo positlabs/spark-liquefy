@@ -8,6 +8,8 @@ It comes with some slider controls so you can play around with the effect in the
 
 ![controls](./controls.jpg)
 
+Inspiration: https://www.shadertoy.com/view/sdjyRV
+
 
 ## Donations
 
