@@ -1,14 +1,25 @@
-# Meta Spark UV Distortion Painter
+# Meta Spark Liquefy
 
-This effect is a simple UV distortion painter, created from an SDF circle and some texture transforms. It's purely patch-based so it should be easy to understand by stepping through the node graph previews. 
+This effect is like the liquefy filter in Photoshop. It lets the user smudge the camera texture by swiping their finger on the screen. 
 
-![screenshot](./spark-uv-distortion-painter.jpg)
+![screenshot](./spark-liquefy.jpg)
 
-It comes with some slider controls so you can play around with the effect in the simulator. 
+[Demo video](https://youtu.be/3UbakQ7MHEw)
+
+There are slider controls in the patch editor so you can easily adjust the parameters to fit your project.
 
 ![controls](./controls.jpg)
 
-Inspiration: https://www.shadertoy.com/view/sdjyRV
+Brush controls include size, hardness, and opacity. It makes smooth strokes even with fast movements, using an [SDF line segment](https://www.shadertoy.com/view/Wlfyzl) by Inigo Quilez. [Brush Demo](https://www.youtube.com/watch?v=ThGGqbRPysY&ab_channel=JoshBeckwith)
+
+Decay will slowly return the distortion back to normal.
+
+And of course the distortion slider controls the strength of the distortion.
+
+
+## Inspiration
+
+From Fabrice Neyret: https://www.shadertoy.com/view/sdjyRV
 
 
 ## Donations
